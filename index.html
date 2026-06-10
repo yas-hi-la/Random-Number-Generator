@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Number Generation</title>
+</head>
+<body>
+    <div>
+        <h1>Random Number Generation Game</h1>
+        <h2>How this works</h2>
+        <p>Guess the hidden number (between 1 to 10) and enter your answer. If your guess matches the randomly generated number, you win! <br>
+            Otherwise, your score decreases by 1 for each incorrect guess. Your score starts from 10</p>
+        <input id = "usernum" placeholder="Enter the number">
+        <button onclick="check()">Check</button>
+        <p id = "result"></p>
+        <p id = "score">Score : 10</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

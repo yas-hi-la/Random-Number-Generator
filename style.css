@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+h1,p,input{
+    margin: 5px;
+}
+
+input{
+    padding: 5px;
+    border: none;
+    border-bottom: 2px black solid;
+    background: none;
+    color: black;
+}
+
+input::placeholder{
+    color: black;
+}
+
+button{
+    padding: 5px;
+    background-color: brown;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+div{
+    text-align: center;
+    background-color: chocolate;
+    padding: 20px;
+    width: 100%;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+p{
+    padding: 5px;
+    font-size: large;
+}
